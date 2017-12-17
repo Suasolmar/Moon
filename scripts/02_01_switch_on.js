@@ -5,12 +5,12 @@ var soundplay;
 var prev, next;
 
 function preload(){
-  img_on = loadImage("../image/02_switch_on.png");
-  img_off = loadImage("../image/02_switch_off.png");
+  img_on = loadImage("https://halsoo.github.io/Moon/image/02_switch_on.png");
+  img_off = loadImage("https://halsoo.github.io/Moon/image/02_switch_off.png");
 
   soundFormats("mp3");
-  sound_on = loadSound("../sound/02_switch_on.mp3");
-  sound_off = loadSound("../sound/02_switch_off.mp3");
+  sound_on = loadSound("https://halsoo.github.io/Moon/sound/02_switch_on.mp3");
+  sound_off = loadSound("https://halsoo.github.io/Moon/sound/02_switch_off.mp3");
 }
 
 function setup() {
