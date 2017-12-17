@@ -1,0 +1,40 @@
+@font-face{
+  font-family: 'maechim';
+  src: url('../font/Maechim_light.woff') format('woff'),
+  url('../font/Maechim_light.woff2') format('woff2'),
+  url('../font/Maechim_light.svg') format('svg');
+  font-weight: lighter;
+}
+
+
+html{
+  background-color: rgb(53, 53, 53);
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-wrapper img {
+  width:70vw;
+  height:auto;
+  margin-bottom: 20px;
+}
+
+.page-wrapper pre {
+  font-family: 'maechim';
+  font-weight: lighter;
+  font-size: 1.1em;
+  line-height: 2.0em;
+  color: rgb(180,190,191);
+
+}

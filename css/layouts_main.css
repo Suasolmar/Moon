@@ -1,0 +1,64 @@
+@font-face{
+  font-family: 'maechim';
+  src: url('../font/Maechim_light.woff') format('woff'),
+  url('../font/Maechim_light.woff2') format('woff2'),
+  url('../font/Maechim_light.svg') format('svg');
+  font-weight: lighter;
+}
+
+ * { font-family: 'Spoqa Han Sans', helvetica, sans-serif; }
+
+html{
+  background-color: rgb(53, 53, 53);
+  color: rgb(126, 158, 163)
+}
+
+body {
+  margin: auto;
+  margin-top: 3%;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+#sketch {
+
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+
+}
+
+.menu ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.menu li {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(126, 158, 163)
+}
+
+.menu a:link {
+  text-decoration: none;
+  color: rgb(126, 158, 163)
+}
+
+.menu a:visited {
+  text-decoration: none;
+  color: rgb(126, 158, 163)
+}
+
+.menu a:hover, a:active {
+  text-decoration: none;
+  color: #18C29C;
+}
