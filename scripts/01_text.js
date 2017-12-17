@@ -3,7 +3,7 @@ var img;
 var prev, next;
 
 function preload(){
-  img = loadImage("../Moon/image/01_text.png");
+  img = loadImage("https://halsoo.github.io/Moon/image/01_text.png");
 }
 
 function setup() {
