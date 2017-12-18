@@ -5,8 +5,8 @@ var tic = 0;
 var sec = 60;
 
 function preload(){
-  img = loadImage("../image/03_01_moonlight_light.png");
-  img_ring = loadImage("../image/03_01_moonlight_light_ring.png");
+  img = loadImage("https://halsoo.github.io/Moon/image/03_01_moonlight_light.png");
+  img_ring = loadImage("https://halsoo.github.io/Moon/image/03_01_moonlight_light_ring.png");
 }
 
 function setup() {

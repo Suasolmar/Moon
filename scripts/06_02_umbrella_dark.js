@@ -5,10 +5,10 @@ var rot, offset;
 var prev, next;
 
 function preload(){
-  umbrella = loadImage("../image/06_02_umbrella.png");
+  umbrella = loadImage("https://halsoo.github.io/Moon/image/06_02_umbrella.png");
 
   soundFormats("mp3");
-  sound_rain = loadSound("../sound/06_02_rain.mp3");
+  sound_rain = loadSound("https://halsoo.github.io/Moon/sound/06_02_rain.mp3");
 }
 
 function setup() {

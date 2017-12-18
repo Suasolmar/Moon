@@ -8,13 +8,13 @@ var h_img = 709;
 
 var img_me, img_d;
 var i;
-var src_me = ["../image/13_01_02_me_001.png", "../image/13_01_02_me_002.png", "../image/13_01_02_me_003.png"];
+var src_me = ["https://halsoo.github.io/Moon/image/13_01_02_me_001.png", "https://halsoo.github.io/Moon/image/13_01_02_me_002.png", "https://halsoo.github.io/Moon/image/13_01_02_me_003.png"];
 var w_me = [422, 261, 358];
 var h_me = [398, 553, 570];
 var me_w, me_h;
 var me_x, me_y;
 
-var src_d = ["../image/13_01_02_d_001.png", "../image/13_01_02_d_002.png", "../image/13_01_02_d_003.png"];
+var src_d = ["https://halsoo.github.io/Moon/image/13_01_02_d_001.png", "https://halsoo.github.io/Moon/image/13_01_02_d_002.png", "https://halsoo.github.io/Moon/image/13_01_02_d_003.png"];
 var w_d = [416, 201, 251];
 var h_d = [378, 595, 426];
 var d_w, d_h;
@@ -22,7 +22,7 @@ var d_x, d_y;
 
 
 function preload(){
-  img = loadImage("../image/13_01_02_bed.png");
+  img = loadImage("https://halsoo.github.io/Moon/image/13_01_02_bed.png");
 
   i = round (random(0,2));
   img_me = loadImage(src_me[i]);

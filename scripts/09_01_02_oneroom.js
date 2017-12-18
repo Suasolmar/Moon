@@ -7,8 +7,8 @@ var sec = 60;
 
 
 function preload(){
-  img = loadImage("../image/09_01_02_oneroom.png");
-  img_ring = loadImage("../image/09_01_02_oneroom_ring.png");
+  img = loadImage("https://halsoo.github.io/Moon/image/09_01_02_oneroom.png");
+  img_ring = loadImage("https://halsoo.github.io/Moon/image/09_01_02_oneroom_ring.png");
 }
 
 function setup() {
